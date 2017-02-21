@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Beetle.JT808.Core" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAABACAAAACAAAAAAAD4IAAAAAAAAQAAAAAg=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Message" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgJAAAAAAgAABAAABAAAAAACAAAAAAAAAAQBAACA=</HashCode>
+      <FileName>Implement\Message.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.JT808.ProtocolBuffer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABCAAA7AGMIgARgARgAAgAAKACAgABwREAAAA=</HashCode>
+      <FileName>Implement\ProtocolBuffer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.JT808.ProtocolBufferPool" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAIAAAAACAAABAAAAAABAACAA=</HashCode>
+      <FileName>Implement\ProtocolBuffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.MessageBodyAttributes" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUAAgIAAAIAhAAAAgAAAAABgAgCAAAAgAAgAAAAAAAA=</HashCode>
+      <FileName>MessageBodyAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.PacketInfo" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>MessageBodyPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.MessageFactory" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAACAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.ProtocolProcessError" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProtocolProcessError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.ReadWriteHandlerAttribute" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.ByteHandler" Collapsed="true">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.BytesHandler" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.UInt16Handler" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.UIntHandler" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.ASCIIHandler" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.CBDHandler" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.GBKHandler" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.TimeBCD" Collapsed="true">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.ByteBitHandler" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.UInt16BitHandler" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.UIntBitHandler" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\IReadWriteHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.MessageTypeAttribute" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serializes\MessageTypeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Messages.CenterResponse" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAABAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\CenterResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Messages.ClientPing" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\ClientPing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Messages.ClientPostion" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEBEAAAAAAACAIAAABAAAAAAAAAAAAAAEAAQA=</HashCode>
+      <FileName>Messages\ClientPostion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Messages.ClientPostionWarningMark" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQACgIAAAAUIAAIFAAACIgAAAEAAQAAJBCAEUECACAI=</HashCode>
+      <FileName>Messages\ClientPostion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.JT808.Messages.ClientPostionStatus" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAwgIAAAEAIBAJBAAIIAAAAAAAAAAIAAAAAgCAACgA=</HashCode>
+      <FileName>Messages\ClientPostion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Beetle.JT808.Messages.ClientRegister" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAMAAAIAAAAAAAAAQAAAAAAAAAAkgAAAAA=</HashCode>
+      <FileName>Messages\ClientRegister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Messages.ClientRegisterCancel" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\ClientRegisterCancel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Messages.ClientRegisterResponse" Collapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAE=</HashCode>
+      <FileName>Messages\ClientRegisterResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Messages.ClientResponse" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAABAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\ClientResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Messages.ClientSignature" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Messages\ClientSignature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Serializes.FieldHandler" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAIAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Serializes\EmitHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Serializes.PropertyHandler" Collapsed="true">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAgAAIAAABABAIAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Serializes\EmitHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Serializes.MethodHandler" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAIEAAAAA=</HashCode>
+      <FileName>Serializes\EmitHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Serializes.InstanceHandler" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Serializes\EmitHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Serializes.ReflectionHandlerFactory" Collapsed="true">
+    <Position X="25.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAVAAAAAEBKIAEAABAEQAAAAAAEABABAgAAgAAAA=</HashCode>
+      <FileName>Serializes\EmitHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Serializes.PropertySerializeHandler" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAABAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serializes\PropertySerializeHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Serializes.Serializer" Collapsed="true">
+    <Position X="27.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAEAAAAQAAAAAAAACBAAgAAAAACAAAAAAA=</HashCode>
+      <FileName>Serializes\Serializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beetle.JT808.Serializes.SerializerFactory" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADBAgAAAAAAABAAAAAAAAAAAABAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Serializes\Serializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Beetle.JT808.IMessage" Collapsed="true">
+    <Position X="27.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgJAAAAAAgAABAAABAAAAAACAAAAAAAAAAQBAACA=</HashCode>
+      <FileName>IMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Beetle.JT808.IMessageBody" Collapsed="true">
+    <Position X="29" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMessageBody.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Beetle.JT808.IProtocolBuffer" Collapsed="true">
+    <Position X="30.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABCAAAzACAIgABAARgAAgAAIAAAAABQQEAAAA=</HashCode>
+      <FileName>IProtocolBuffer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Beetle.JT808.IBitCustomType" Collapsed="true">
+    <Position X="25.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serializes\IBitType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Beetle.JT808.Messages.ResultType" Collapsed="true">
+    <Position X="25.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAACAAAAAAAAAEAA=</HashCode>
+      <FileName>Messages\ClientResponse.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Beetle.JT808.Serializes.GetValueHandler" Collapsed="true">
+    <Position X="27.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serializes\EmitHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Beetle.JT808.Serializes.ObjectInstanceHandler" Collapsed="true">
+    <Position X="29" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serializes\EmitHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Beetle.JT808.Serializes.SetValueHandler" Collapsed="true">
+    <Position X="30.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Serializes\EmitHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Beetle.JT808.Serializes.FastMethodHandler" Collapsed="true">
+    <Position X="25.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serializes\EmitHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
